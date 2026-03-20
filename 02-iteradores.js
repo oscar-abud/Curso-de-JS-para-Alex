@@ -1,4 +1,4 @@
-lista = [1, 2, 3, 4, 5];
+lista = [1, 2, 3, 4, 5, 5, 5, 1, 2, 3, 4, 1, 2, 1, 3, 1];
 list = [
   {nombre: 'Oscar', edad: 24},
   {nombre: 'Alex', edad: 23},
@@ -6,4 +6,4 @@ list = [
 
 const listaNueva = lista.map(i => i);
 
-console.log(listaNueva)
+const listaFiltrada = lista.filter(i => i === 5);
