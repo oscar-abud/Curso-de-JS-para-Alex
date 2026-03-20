@@ -4,6 +4,11 @@ const number1 = 0;
 let number2 = 0;
 
 const lista = [1, 2, 3, 4, 5];
+// El objeto o coleccion tiene clave/llave y valor
+const objeto = {
+  nombre: 'Alex',
+  edad: 23
+}
 
 /* El ciclo for tiene 3 argumentos:
  * el primer argumento es para incializar el valor del iterador
@@ -14,13 +19,13 @@ for (let i = 0; i <= lista.length; i++) {
 //   console.log(`Valor del iterador ${i}`);
 }
 
-if (number1 === number2) {
-  console.log(`El valor del number 1 es igual al del number 2`)
-}
 /* Diferencias entre if y else if:
  * El if siempre va a preguntar la condicion
  * el else if solo te lo va a validar una vez solo si se cumple la condicion.
 */
+if (number1 === number2) {
+  console.log(`El valor del number 1 es igual al del number 2`)
+}
 
 while (number2 < lista.length) {
 //   console.log(`Valor del number 2 ${number2}`);
