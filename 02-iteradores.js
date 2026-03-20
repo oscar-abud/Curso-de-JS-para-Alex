@@ -10,4 +10,4 @@ const listaFiltrada = lista.filter(i => i === 5);
 
 const listaEncontrada = lista.find(i => i === 5);
 
-const indiceEncontrado = lista.find(i => i === 5);
+const indiceEncontrado = lista.findIndex(i => i === 5);
