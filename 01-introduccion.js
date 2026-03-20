@@ -1,7 +1,7 @@
 // Variable constante, no se puede redeclarar su valor.
 const number1 = 0;
 // Variable flexible que se puede redeclarar su valor
-const number2 = "0";
+let number2 = 0;
 
 const lista = [1, 2, 3, 4, 5];
 
@@ -21,3 +21,8 @@ if (number1 === number2) {
  * El if siempre va a preguntar la condicion
  * el else if solo te lo va a validar una vez solo si se cumple la condicion.
 */
+
+while (number2 < lista.length) {
+//   console.log(`Valor del number 2 ${number2}`);
+  number2++;
+}
