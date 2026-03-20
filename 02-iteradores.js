@@ -7,3 +7,5 @@ list = [
 const listaNueva = lista.map(i => i);
 
 const listaFiltrada = lista.filter(i => i === 5);
+
+const listaEncontrada = lista.find(i => i === 5);
